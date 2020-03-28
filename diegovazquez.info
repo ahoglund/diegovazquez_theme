@@ -1,0 +1,24 @@
+name = Diego Vazquez
+description = Theme for diegovazquez.mx
+version = 1.0
+core = 7.x
+stylesheets[all][] = style.css
+stylesheets[all][] = jscrollpane/jScrollPane.css
+
+regions[right] = Right sidebar
+regions[header] = Header
+regions[content] = Content
+regions[navigation] = Navigation
+regions[footer] = Footer
+regions[highlighted] = Highlighted
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+
+
+plugins[panels][layouts] = layouts
+
+scripts[] = jscrollpane/jquery.mousewheel.js
+scripts[] = jscrollpane/jquery.em.js
+scripts[] = jscrollpane/jScrollPane.js
+scripts[] = init_jscroll_pane.js
+
