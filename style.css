@@ -27,19 +27,19 @@
 11px = .9167em
 10px = .8333em
 
-Equation for font sizing: 
+Equation for font sizing:
 -Desired px ÷ Default (or parent) px = em size
 ------------------------------------------------*/
 
 /**
- * 0.RESET 
+ * 0.RESET
  */
 @import "reset.css";
 
 /**
  * 1.GLOBAL
  */
- 
+
 html, body {
   height: 100%;
 }
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3em;
   line-height: 1em;
-  margin-bottom: .5em; 
+  margin-bottom: .5em;
 }
 
 h2 {
@@ -77,13 +77,13 @@ h3 {
 h4 {
   font-size: 1.2em;
   line-height: 1.25em;
-  margin-bottom: 1.25em; 
+  margin-bottom: 1.25em;
 }
 
 h5 {
   font-size: 1em;
   font-weight: bold;
-  margin-bottom: 1.5em; 
+  margin-bottom: 1.5em;
 }
 
 h6 {
@@ -147,7 +147,7 @@ fieldset { border: 1px solid #ccc; margin: .5em 0; padding: 1em; }
 	padding:0;
 	width:980px;
 	text-align:left;
-	vertical-align: middle;	
+	vertical-align: middle;
 	border: 0px solid black;
 }
 
@@ -200,6 +200,10 @@ fieldset { border: 1px solid #ccc; margin: .5em 0; padding: 1em; }
   margin: 0;
 }
 
+#header #logo img {
+  width: 241px;
+}
+
 #header #name-and-slogan {
   float: left;
 }
@@ -226,7 +230,7 @@ fieldset { border: 1px solid #ccc; margin: .5em 0; padding: 1em; }
 }
 
 /* Hides "Search this site:" label from search forms */
-div#edit-search-theme-form-1-wrapper label, 
+div#edit-search-theme-form-1-wrapper label,
 div#edit-search-block-form-1-wrapper label {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -263,7 +267,7 @@ div#edit-search-block-form-1-wrapper label {
   padding: 0 0 0 2em;
   color: #00868b;
   font-weight: 800;
-  
+
 }
 
 #navigation ul#main-menu li a:hover, #navigation ul#main-menu li a:active {
